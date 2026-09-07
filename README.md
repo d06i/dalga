@@ -1,5 +1,5 @@
-# dalg
- This programming language is based on LLVM's Kaleidoscope example. It supports only the "double" data type. The syntax will be simplified over time, but for now, it follows a C-style syntax. Currently, the following features are supported:
+# dalga
+ This programming language is based on [LLVM's Kaleidoscope](https://llvm.org/docs/tutorial/MyFirstLanguageFrontend/LangImpl01.html) example. It supports only the "double" data type. The syntax will be simplified over time, but for now, it follows a C-style syntax. Currently, the following features are supported:
    + Functions
    + Function Call
    + Variable Assign
@@ -46,7 +46,7 @@ fn str() {
 
 ## Usage 
 ````
-  Generate LLVM IR Code-> dalg.exe input.dalg output.ll
+  Generate LLVM IR Code-> dalga.exe input.dalga output.ll
 ````
 ````
   Executable file -> clang.exe output.ll -o output.exe
@@ -63,5 +63,3 @@ fn str() {
   + Better Error Messages
   + Automatic parallelization
   + More libc linking
-
-    
